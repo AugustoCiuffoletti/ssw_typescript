@@ -6,7 +6,7 @@ class miaClasse {
         this.f2=b
     }
 };
-var A: List<miaClasse> = []; // anche miaClasse[]
+var A: Array<miaClasse> = []; // anche miaClasse[]
 var n: number;
 for (n = 0; n < 3 ; n++ ) {
     A[n] = new miaClasse("",n) ;

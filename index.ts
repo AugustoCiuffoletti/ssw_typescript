@@ -1,10 +1,14 @@
-// In JavaScript
-function miaInterface(a,b) {
-  this.f1=a;
-  this.f2=b;
+// In JavaScript con una classe
+class miaClasse {
+  f1;
+  f2;
+  constructor(a, b) {
+    (this.f1 = a), (this.f2 = b);
+  }
 }
 var A = [];
-for (var n = 0; n < 3 ; n++ ) {
-  A[n] = new miaInterface("blob", n)
+var n;
+for (n = 0; n < 3; n++) {
+  A[n] = new miaClasse('', n);
 }
-console.log(A)
+console.log(A);

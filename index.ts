@@ -1,4 +1,4 @@
-// In JavaScript
+// In JavaScript con un prototipo
 function miaInterface(a,b) {
   this.f1=a;
   this.f2=b;

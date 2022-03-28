@@ -1,14 +1,10 @@
-class miaClasse {
-    f1: string;
-    f2: number;
-    constructor( a: string, b: number ) {
-        this.f1=a,
-        this.f2=b
-    }
-};
-var A: Array<miaClasse> = []; // anche miaClasse[]
-var n: number;
-for (n = 0; n < 3 ; n++ ) {
-    A[n] = new miaClasse("",n) ;
+In JavaScript
+interface miaInterface() {
+    this.f1;
+    this.f2;
+}
+var A: miaInterface[];
+for (var n = 0; n < 3 ; n++ ) {
+    A[n] = {f1: "blob", f2: n}
 }
 console.log(A)
